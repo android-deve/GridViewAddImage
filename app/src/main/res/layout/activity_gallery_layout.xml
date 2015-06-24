@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="2dp"
+                tools:context="com.yw01.lovefree.u.crop.util.ActivityGallery">
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:horizontalSpacing="2dp"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="3"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="2dp"/>
+
+
+    <LinearLayout style="@style/bottom_style">
+
+        <Button
+            android:id="@+id/btnPositive"
+            style="@style/btn_style"
+            android:text="确定"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
